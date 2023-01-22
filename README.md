@@ -29,7 +29,7 @@ public class Clayton extends Estudante{
         this.tecnologias = new String[]{
         "Java", "C", "Python", "Javascript",
         "MSSQL", "MongoDB",
-        "Booststrap", "Materialize"}
+        "Bootstrap", "Materialize"}
     }
     @Override
     public void setFormacao(String university, String course, int period){

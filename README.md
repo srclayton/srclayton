@@ -19,10 +19,9 @@ Here are some ideas to get you started:
 #### sobre.java
 ```java
 public class Clayton extends Estudante{
-    protected String nome, universidade, curso, empresa, cargo;
+    protected String nome, universidade, curso;
     protected String[] tecnologias;
     protected int periodo;
-    protected Boolean programador;
 
     public Clayton(String name, String[] techStack) {
         this.nome = "Clayton Rocha";

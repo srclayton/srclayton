@@ -37,12 +37,6 @@ public class Clayton extends Estudante{
         curso = "BSI - Bacharelado em Sistemas de Informação.";
         periodo = 3;
     }
-    @Override
-    public void setEstagio(String company, String position, Boolean programmer){
-        this.empresa = "Arco Educação";
-        this.cargo = "Estagiario de Sistemas";
-        this.programador = false; // ☹️😢
-    }
 }
 ```
 <p align="center">

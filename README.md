@@ -1,42 +1,32 @@
 ## Olá 👋 seja bem vindo ao meu GitHub!
 
-<!--
-**srclayton/srclayton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 [![Linkedin: srclayton](https://img.shields.io/badge/-srclayton-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/srclayton/)](https://www.linkedin.com/in/srclayton/)
 ![](https://visitor-badge.glitch.me/badge?page_id=srclayton)
-#### sobre.java
-```java
-public class Clayton extends Estudante{
-    protected String nome, universidade, curso;
-    protected String[] tecnologias;
-    protected int periodo;
+#### About.ts
+```typescript
+export class Clayton extends Student{
+    private name: string;
+    private technologies: string[];
 
-    public Clayton(String name, String[] techStack) {
-        this.nome = "Clayton Rocha";
-        this.tecnologias = new String[]{
-        "Java", "C", "Python", "Javascript",
-        "MSSQL", "MongoDB",
-        "Bootstrap", "Materialize"}
+    constructor(name: string, technologies: string[]) {
+        this.name = "Clayton";
+        this.technologies = [
+            "Java", "C/C++", "JavaScript", "TypeScript", "Node.js",
+            "MSSQL", "MongoDB",
+            "Next.js", "TailwindCSS", "Bootstrap", "Materialize"
+        ];
     }
-    @Override
-    public void setFormacao(String university, String course, int period){
-        universidade = "UTFPR - Universidade Tecnologica Federal do Parana.";
-        curso = "BSI - Bacharelado em Sistemas de Informação.";
-        periodo = 3;
+    public everyday(): void {
+        do {
+            this.neverStopLearning();
+            this.beAwesome();
+            if (success) {
+                this.celebrate();
+            }
+        } while (alive);
     }
 }
+
 ```
 <p align="center">
 <a href="https://github.com/srclayton">
